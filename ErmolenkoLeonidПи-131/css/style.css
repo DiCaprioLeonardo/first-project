@@ -1,0 +1,174 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    font-size: 18px;
+    font-family: Roboto;
+    background-color: #ECB524;
+}
+header {
+    background-color: #ECB524;
+    text-align: center;
+}
+
+footer {
+    background-color: #ECB524;
+    padding: 20px 50px;
+    color: #071B2F;
+    margin-top: 20px;
+}
+
+p {
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+
+
+}
+
+p::first-line{
+    letter-spacing: 20px;
+
+}
+
+h1 {
+    text-transform: lowercase;
+    color: #071B2F;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#content {
+    padding: 20px 100px;
+    background-color: #071B2F;
+    color: #ECB524;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#about {
+    background-color: #071B2F;
+    text-align: center;
+    color: #ECB524;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#feedback{
+    background-color: #071B2F;
+    
+    color: #ECB524;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 1.1em;
+}
+
+#img {
+    background-color: #071B2F;
+    text-align:center;
+}
+.round{
+    border-radius:100px;
+}
+.date{
+    text-align:right;
+}
+
+dl {
+    padding: 10px;
+    font-size:1.4rem;
+}
+
+ul{
+    font-size:1.4rem;
+}
+
+img {
+    border-radius: 50%;
+    border:groove;
+    box-shadow: 10px 5px 5px red;
+}
+
+a:hover{
+    background: #ECB524;
+}
+a:focus{
+    text-align:left;
+}
+dd:lang(en) {
+    font-size: 10pt;
+}
+
+ol li:nth-child(2n) {
+    color:aqua;
+}
+
+.main-img {
+    border: dotted;
+}
+
+.new::after {
+    content: "Важно!!!";
+    border: 10px, double;
+    color:aqua;
+}
+img+p{
+    margin-top: 100px;
+}
+dt{
+    font-weight: 700;
+}
+
+div{
+    background-color: #071B2F;
+}
+
+
+
+
+tr:nth-child(2n) {
+    color: white;
+    font-style: italic
+}
+
+
+th{
+    text-align: left;
+    font-style: italic;
+}
+
+td:nth-child(3){
+    background-color: aqua;
+}
+    
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="submit"]{
+    box-shadow: #ECB524 20px;  
+
+}
+
+#contact-form input[type="submit"]:hover {
+    background: #ECB524;
+}
+
+label{
+    font-style:italic;
+}
