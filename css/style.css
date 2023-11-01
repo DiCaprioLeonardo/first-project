@@ -71,6 +71,8 @@ h2{
     margin-left: 40px;
     margin-right: 40px;
     font-size: 1.1em;
+    
+    padding-left: 40px;
 }
 
 #img {
@@ -148,27 +150,62 @@ th{
 }
 
 td:nth-child(3){
-    background-color: aqua;
+    background-color: #ECB524;
+}    
+
+label{
+    font-style:italic;
 }
-    
-#contact-form input[type="text"]{
+
+#contact-form input[type = "text"] {
     height: 20px;
     width: 250px;
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
-    background-color: #eddfff;
+    background-color: #ECB524;
 }
 
-#contact-form input[type="submit"]{
-    box-shadow: #ECB524 20px;  
-
+#contact-form input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #ECB524;
 }
-
 #contact-form input[type="submit"]:hover {
-    background: #ECB524;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(44, 2, 83) solid 1px;
+    background-color: whitesmoke;
+}
+#contact-form textarea {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #ECB524;
+}
+#contact-form option {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #ECB524;
+}
+#contact-form select[type="theme"] {
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #ECB524;
 }
 
-label{
-    font-style:italic;
+#contact-form select[type="theme"]:hover{
+    background-color: whitesmoke;
 }
