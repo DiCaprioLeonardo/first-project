@@ -164,31 +164,34 @@ label{
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: #ECB524;
+    font-size: 1.15rem;
 }
 
 #contact-form input[type="submit"] {
     height: 30px;
-    width: 100px;
+    width: 120px;
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: #ECB524;
+    font-size: 1.2rem;
 }
 #contact-form input[type="submit"]:hover {
     height: 30px;
-    width: 100px;
+    width: 120px;
     padding: 5px;
     margin-bottom: 10px;
     border: rgb(44, 2, 83) solid 1px;
     background-color: whitesmoke;
 }
 #contact-form textarea {
-    height: 20px;
+    height: 150px;
     width: 250px;
     padding: 5px;
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: #ECB524;
+    font-size: 1.15rem;
 }
 #contact-form option {
     height: 20px;
@@ -197,6 +200,7 @@ label{
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: #ECB524;
+    font-size: 1.15rem;
 }
 #contact-form select[type="theme"] {
     width: 260px;
@@ -204,6 +208,7 @@ label{
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: #ECB524;
+    font-size: 1.15rem;
 }
 
 #contact-form select[type="theme"]:hover{
